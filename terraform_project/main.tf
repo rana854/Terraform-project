@@ -18,8 +18,8 @@ module "ec2" {
   source = "../modules/ec2"
   ami = var.ami
   instance_type = var.instance_type
-  my_ec2_public_subnet = module.network.ec2_public_subnet
-  my_ec2_security_group =[var.my_ec2_security_group]
+  my_ec2_public_subnet = module.network.ec2_public_subnet.id
+  my_ec2_security_group = var.my_ec2_security_group
 }
 
 module "s3_bucket" {
