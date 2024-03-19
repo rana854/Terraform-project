@@ -17,5 +17,5 @@ variable "my_ec2_public_subnet" {
 
 variable "my_ec2_security_group" {
  description = "my_ec2_security_group"
-  type = string 
+  type = list 
 }
