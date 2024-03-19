@@ -24,7 +24,7 @@ This project contains modules for setting up various AWS resources including sec
 -	AWS Account: You must have an AWS account to create resources using Terraform. 
 -	AWS CLI Configuration: Configure your AWS credentials on your local machine or the environment where Terraform will be executed.
 # To use this code
-- git clone https://github.com/your-username/your-repository.git
+- git clone https://github.com/rana854/Terraform-project
 -  Run `terraform init` to initialize the project. 
 - Run `terraform plan` to review the planned changes.
 - Run `terraform apply` to apply the changes and provision the resources on AWS.
