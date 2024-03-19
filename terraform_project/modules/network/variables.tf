@@ -1,8 +1,3 @@
-#variable "vpc_id" {
- # description = "its the ID for default VPC"  
-#}
-
-
 variable "vpc_cidr_block" {
  description = "its the cidr for  VPC" 
 }
