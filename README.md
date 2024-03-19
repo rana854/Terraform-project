@@ -1,7 +1,7 @@
 # Terraform-project
 This project contains modules for setting up various AWS resources including security groups, networking components, EC2 instances, and S3 buckets.
 # The project structure is organized as follows:
-                                                                                     
+![Capture](https://github.com/rana854/Terraform-project/assets/132678372/7a1ce94c-7022-47f4-ba02-b13dd703c138)                                                                                     
 - modules  : Contains subdirectories for each Terraform module.
 - main.tf : Main Terraform configuration file that references modules and resources.
 - variables.tf: Defines input variables used throughout the project.
